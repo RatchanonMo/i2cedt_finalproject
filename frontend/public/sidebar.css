@@ -1,0 +1,36 @@
+.sidebar{
+  padding: 30px ;
+  min-height: 88vh;
+  background-color: white;
+  width: 200px;
+  position: fixed;
+  margin: 20px 0;
+  border-radius: 40px;
+  border: 2px solid #535353;
+
+}
+
+.calendar{
+  margin-left: 0px;
+}
+
+.today-task{
+  padding: 8px 20px;
+  border-radius: 10px;
+  margin: 5px 0px;
+}
+
+.add{
+  background-color: #f1f5f9;
+  transition: 0.3s;
+}.add:hover{
+  background-color: #d8dee6;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1700px) {
+    .calendar {
+      margin-left: 340px;
+    }
+}
+

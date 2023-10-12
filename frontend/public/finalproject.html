@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CEDT Calender</title>
+    <link rel="stylesheet" href="finalproject.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="sidebar.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+<!-- Preloader -->
+
+  <div class="sidebar">
+    <div>
+      <h2>Today <br/>12 Oct 2023</h2>
+      <hr>
+      <div id="sidebar-now" class="today-task subject-IntroToCEDT">
+        <p style="font-size: 20px;margin: 0;">Final Project</p>
+      </div>
+      <div id="sidebar-add" class="today-task add">
+        <p style="font-size: 20px;margin: 0;">+ Add</p>
+      </div>
+  
+  
+    </div>
+    <div style="margin-top: 50px;">
+      <h2>Subjects</h2>
+      <hr>
+     
+      <div class="today-task subject-IntroToCEDT">
+        
+        <p style="font-size: 20px;margin: 0;">Intro to CEDT</p>
+      </div>
+      <div class="today-task subject-ComProg">
+        <p style="font-size: 20px;margin: 0;">ComProg</p>
+      </div>
+      <div class="today-task subject-DigitalLogic">
+        <p style="font-size: 20px;margin: 0;">DigitalLogic</p>
+      </div>
+    </div>
+ 
+  
+    
+  </div>
+  <div class="calendar">
+    <div class="header">
+      <div class="left">
+        <h3 style="font-weight: 900; color: rgb(49, 49, 49);margin: 40px 0px;">
+         📆 CEDT Calendar
+        </h3>
+      </div>
+      <div class="right">
+        <button class="button-30" id="prev-month">&#60;</button>
+        <button class="button-30" id="next-month">&#62;</button>
+      </div>
+    </div>
+    <div class="month_year">
+      <div class="currentdiv">
+
+          <span id="current-month">กันยายน</span>
+          <span id="current-year"></span>
+      </div>
+
+      <div class="carlendardiv">
+        <div class="days" id="calendar-days"></div>
+      </div>
+    </div>
+  </div>
+
+      
+        <!--  <div class="subjects">
+          <h1 class="season">Season</h1>
+          <select id="name-to-add">
+            <option value="2023/term1">Season1/Chapter1</option>
+            <option value="2023/term2">Season1/Chapter2</option>
+            <option value="2024/term1">Season2/Chapter1</option>
+            <option value="2024/term2">Season2/Chapter2</option>
+            <option value="2025/term1">Season3/Chapter1</option>
+            <option value="2025/term2">Season3/Chapter2</option>
+            <option value="2026/term1">Season4/Chapter1</option>
+          </select>
+        </div> -->
+        <div id="detail"></div>
+      
+    </div>
+   
+    <script src="finalproject.js"></script>
+    <script src="login.js"></script>
+  </body>
+</html>
